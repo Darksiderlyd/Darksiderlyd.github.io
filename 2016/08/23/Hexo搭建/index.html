@@ -120,7 +120,7 @@ hexohexo操作步骤
 
 正确搭建姿势 新建github项目
  (前提：gihub账号，通过github上提供的方式或者通过git的git gui    获取并且设置了github的SSH">
-<meta property="og:updated_time" content="2016-08-23T05:43:31.248Z">
+<meta property="og:updated_time" content="2016-08-23T06:45:18.799Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo搭建">
 <meta name="twitter:description" content="Windows环境下Hexo、Github搭建个人博客
@@ -438,6 +438,8 @@ hexohexo操作步骤
 <p>命令的简写为：<br><strong><em>hexo n</em></strong> == hexo new<br><strong><em>hexo g</em></strong> == hexo generate<br><strong><em>hexo s</em></strong> == hexo server<br><strong><em>hexo d</em></strong> == hexo deploy</p>
 </li>
 <li><p><strong><em>主题插件安装和优化</em></strong><br>推荐参考文章：<a href="http://www.jianshu.com/p/b7886271e21a" target="_blank" rel="external">主题详细介绍</a></p>
+</li>
+<li><p><strong><em>问题Issue</em></strong><br>在操作过程中，由于对<em>.deploy_git</em>文件的误操作（删除<em>.git</em>），导致提交不上文件，然后还执行了<em>hexo init</em>等操作，究其原因，主要是<em>_config.yml</em>文件也被初始化，回到了最初的状态，导致<em>hexo deploy</em>没有反应也不报错，所以重新配置一下<strong><em>deploy</em></strong>就好了，还有就是强烈建议备份一下这个文件。</p>
 </li>
 <li><p><strong><em>域名绑定</em></strong><br>推荐参考文章：<a href="http://blog.csdn.net/qq_23435721/article/details/50876942" target="_blank" rel="external">http://blog.csdn.net/qq_23435721/article/details/50876942</a></p>
 </li>
